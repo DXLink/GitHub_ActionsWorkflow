@@ -27,7 +27,7 @@ jobs:
           cd gitlab-repo
 
           # Add the GitHub repository as a remote
-          git remote add github https://x-access-token:${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}@github.com/${{ https://github.com/DXLink/GitHub_ActionsWorkflow.git  }}.git
+          git remote add github https://x-access-token:${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}@github.com/${{ https://github.com/DXLink/GitHub_ActionsWorkflow  }}.git
 
           # Push changes from GitLab to GitHub
           git push github --mirror
