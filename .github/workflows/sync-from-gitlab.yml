@@ -16,7 +16,7 @@ jobs:
         env:
           GITLAB_TOKEN: ${{ secrets.glpat-BeU4hi4BfinQy7qbC3xD }}
           GITLAB_REPO_URL: ${{ secrets.https://gitlab.com/rahul3260235/CodeMove.git }}
-          GITHUB_TOKEN: ${{ secrets.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 }}
+          GITHUB_TOKEN: ${{ secrets.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 }}
         run: |
           # Configure Git
           git config --global user.name "GitHub Actions"
@@ -27,7 +27,7 @@ jobs:
           cd gitlab-repo
 
           # Add the GitHub repository as a remote
-          git remote add github https://x-access-token:${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}@github.com/${{ https://github.com/DXLink/GitHub_ActionsWorkflow.git  }}.git
+          git remote add github https://x-access-token:${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}@github.com/${{ https://github.com/DXLink/GitHub_ActionsWorkflow.git  }}.git
 
           # Push changes from GitLab to GitHub
           git push github --mirror
